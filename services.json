@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "name": "Norfolk Food Bank",
+    "city": "Norfolk",
+    "category": "Food",
+    "emoji": "🍎",
+    "lat": 36.8508,
+    "lng": -76.2859,
+    "description": "Help distribute food to families in need.",
+    "website": "https://example.org"
+  },
+
+  {
+    "id": 2,
+    "name": "Virginia Beach Cleanup",
+    "city": "Virginia Beach",
+    "category": "Environment",
+    "emoji": "🌊",
+    "lat": 36.8529,
+    "lng": -75.9780,
+    "description": "Join weekly beach cleanup events.",
+    "website": "https://example.org"
+  }
+]

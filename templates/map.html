@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Virginia Community Service Map</title>
+
+<link rel="stylesheet"
+ href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+<link rel="stylesheet"
+ href="/static/css/styles.css">
+
+</head>
+
+<body>
+
+<div class="top-bar">
+
+<select id="cityDropdown">
+<option value="">Search by City</option>
+</select>
+
+<a href="/logout">Logout</a>
+
+</div>
+
+<div class="main">
+
+<div id="map"></div>
+
+<div id="infoCard">
+<h2>Select a Service</h2>
+<div id="details"></div>
+</div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="/static/js/map.js"></script>
+
+</body>
+
+</html>

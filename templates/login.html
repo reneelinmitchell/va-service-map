@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/static/css/styles.css">
+<title>Login</title>
+</head>
+
+<body>
+
+<div class="login-box">
+
+<h2>Virginia Service Map Login</h2>
+
+<form method="POST">
+
+<input name="username" placeholder="Username">
+<input name="password" type="password" placeholder="Password">
+
+<button type="submit">Login</button>
+
+</form>
+
+{% if error %}
+<p class="error">{{ error }}</p>
+{% endif %}
+
+</div>
+
+</body>
+</html>
